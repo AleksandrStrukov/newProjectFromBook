@@ -1,0 +1,12 @@
+                      body {
+                          background-color: #d5b50c;
+                          margin-left: 20%;
+                          margin-right: 20%;
+                          border: 2px dotted black;
+                          padding: 10px 10px 10px 10px;
+                          font-family: sans-serif;
+                      }
+h1 {font-family: sans-serif;
+    color: blue;
+    border-bottom: 2px solid darkgreen}
+p {color: green}
