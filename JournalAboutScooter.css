@@ -18,7 +18,7 @@ p.journal {
     padding: 40px;
     border-color: aquamarine;
     border-width: 2px;
-    border-style: solid;
+    border-style: dashed;
     background-color: blueviolet;
     margin: 50px;
     font-family: "Berlin Sans FB";
@@ -29,3 +29,17 @@ p.journal {
     background-size: 100px;
     border-radius: 40px;
 }
+.verb {
+    font-style: italic;
+}
+.country {
+    font-weight: bold;
+}
+#sideright {
+    background: aqua bottom right;
+    width: 300px;
+    float: right;
+}
+a:link {color: darkmagenta;}
+a:visited{ color: maroon}
+a:hover {color: #eaf3da}
