@@ -28,6 +28,7 @@ p.journal {
     background-position: top right;
     background-size: 100px;
     border-radius: 40px;
+    width: 300px;
 }
 .verb {
     font-style: italic;
@@ -37,9 +38,35 @@ p.journal {
 }
 #sideright {
     background: aqua bottom right;
-    width: 300px;
+
     float: right;
+    position: absolute;
+    top: 128px;
+    left:0px;
+    width: 100px;
 }
 a:link {color: darkmagenta;}
 a:visited{ color: maroon}
 a:hover {color: #eaf3da}
+table {
+    margin-left: 20px;
+    margin-right: 20px;
+    border: thin solid maroon;
+    caption-side: bottom;
+    border-collapse: collapse;
+    font-weight: bolder;
+}
+td, th{
+    border: thin solid red;
+    padding: 10px;
+}
+caption {
+    font-style: italic;
+    padding-top: 15px;
+}
+th, .colored {
+    background-color: aquamarine;
+}
+tr:nth-child(even) {
+    background-color: blueviolet;
+}
